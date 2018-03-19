@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="SDET University Test Suites" parallel="false">
+
+    <test name="Smoke Test: Home Page">
+        <classes>
+            <class name="smoketests.ATagsTest" />
+        </classes>
+    </test>
+
+    <test name="Smoke Test: Login Page">
+        <classes>
+            <class name="smoketests.LoginPresentTestNG" />
+        </classes>
+    </test>
+</suite>
